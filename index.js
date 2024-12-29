@@ -105,10 +105,4 @@ function validateOTP() {
   }
 }
 
-function init() {
-  console.log("JavaScript initialization done!!!");
-  tackleOTPBoxes();
-  setTimeout(generateOTP, 2000);
-}
-
 tackleOTPBoxes();
